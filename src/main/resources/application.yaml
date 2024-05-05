@@ -1,0 +1,11 @@
+spring:
+ datasource:
+   url: jdbc:mysql://localhost:3306/account_details?allowPublicKeyRetrival=true&useSSL=false
+   username: root
+   password: Root
+ 
+#JPA settings
+ jpa:
+    hibernate:
+      ddl-auto: create
+
